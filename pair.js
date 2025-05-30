@@ -1,5 +1,5 @@
 const PastebinAPI = require('pastebin-js'),
-pastebin = new PastebinAPI('EMWTMkQAVfJa9kM-MRUrxd5Oku1U7pgL')
+pastebin = new PastebinAPI('mKoIZabR0uHqg1PCZl-Kc7M9bzSYnlo6')
 const {makeid} = require('./id');
 const express = require('express');
 const fs = require('fs');
@@ -58,19 +58,19 @@ router.get('/', async (req, res) => {
 
                let GIFTED_MD_TEXT = `
 ┏━━━━━━━━━━━━━━
-┃PEINCE TECH V1 SESSION IS 
+┃humba TECH V1 SESSION IS 
 ┃SUCCESSFULLY
 ┃CONNECTED ✅🔥
 ┗━━━━━━━━━━━━━━━
 ▬▬▬▬▬▬▬▬▬▬▬▬▬▬
-❶ || Creator = 𖥘 PRINCE MAYEL 𖥘
+❶ || Creator = 𖥘 MTEE 𖥘
 ▬▬▬▬▬▬▬▬▬▬▬▬▬▬
-❷ || WhattsApp Channel = https://whatsapp.com/channel/0029VajcRr0GpLHR6PjdgN3N
+❷ || WhattsApp Channel = https://whatsapp.com/channel/0029Vb6EJfCHLHQQGd2KGL1P
 ▬▬▬▬▬▬▬▬▬▬▬▬▬▬
 Please Follow My Support Channel
-Wanna talk to me?👉 https://t.me/faraday_11 👈
+Wanna talk to me?👉 https://t.me/ 👈
 ▬▬▬▬▬▬▬▬▬▬▬▬▬▬
-©*2024-2999 PRINCE MAYEL*
+©*2024-2999 HUMBA*
 
 _Don't Forget To Give Star To My Repo_`
  await Pair_Code_By_Gifted_Tech.sendMessage(Pair_Code_By_Gifted_Tech.user.id,{text:GIFTED_MD_TEXT},{quoted:session})
